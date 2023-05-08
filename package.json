@@ -1,0 +1,22 @@
+{
+  "name": "school-lock-system-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./src/app.js"
+  },
+  "author": "丘炜业",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mariadb": "^3.1.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "eslint": "^8.36.0",
+    "express-ip": "^1.0.4"
+  }
+}
